@@ -1,4 +1,4 @@
-Service Desk Analyst – Hands-on Summary
+# Service Desk Analyst – Hands-on Summary on Exchange Online
 
 ## 1. Overview
 
@@ -64,7 +64,7 @@ What we did:
 •      Set the action to reject the message and include an explanation
 •      Tested the rule — external emails were blocked successfully
 
-**<img src="Assets/mail rule setup.png" style="border: 2px solid green; padding: 10px;border-radius:20px;">
+<img src="Assets/mail rule setup.png" style="border: 2px solid green; padding: 10px;border-radius:20px;">
 
 ## 8. Message Trace
 
@@ -73,7 +73,7 @@ Message Trace shows the path of an email and why it was delivered, delayed, or b
 We ran a Mail flow > Message trace and confirmed the blocked email appeared in results with 'Failed' status.
 
 
-**<img src="Assets/message trace result.png" style="border: 2px solid green; padding: 10px;border-radius:20px;">
+<img src="Assets/message trace result.png" style="border: 2px solid green; padding: 10px;border-radius:20px;">
 
 ## 9. Connecting to Exchange Online with PowerShell
 
@@ -113,12 +113,13 @@ https://learn.microsoft.com/en-us/powershell/module/exchangepowershell/
 
 Most day-to-day Tier 1 work is done in the GUI (Microsoft 365 Admin Center and Exchange Admin Center). PowerShell is useful for bulk tasks or automation, but it is not required for basic support.
 
-## 9. Key Differences to Remember
+## 10. Key Differences to Remember
 
 •         **User mailbox:** Belongs to one person and needs a license.
 •         **Shared mailbox:** Used by several people. No separate license required (under normal limits).
 •         **Distribution list:** Only used for sending emails to a group of people.
-## 10. Common Service Desk Tasks
+
+## 11. Common Service Desk Tasks
 
 These are the main Exchange-related tasks a Tier 1 analyst usually handles:
 
@@ -130,6 +131,6 @@ These are the main Exchange-related tasks a Tier 1 analyst usually handles:
 •                Help with basic email delivery problems using Message Trace
 •                Support offboarding (disable account, convert mailbox, remove licenses, etc.)
 
-## 11. Summary
+## 12. Summary
 
 We practiced the core Exchange Online skills needed for a Service Desk Analyst role using the Microsoft 365 and Exchange Admin Center. The focus was on real day-to-day tasks rather than advanced administration.
