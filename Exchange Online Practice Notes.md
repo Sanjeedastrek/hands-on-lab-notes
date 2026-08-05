@@ -64,7 +64,7 @@ What we did:
 •      Set the action to reject the message and include an explanation
 •      Tested the rule — external emails were blocked successfully
 
-<img src="Assets/mail rule setup.png" style="border: 2px solid green; padding: 10px;border-radius:20px;">
+<img src="assets/mail rule setup.png" style="border: 2px solid green; padding: 10px;border-radius:20px;">
 
 ## 8. Message Trace
 
@@ -73,7 +73,7 @@ Message Trace shows the path of an email and why it was delivered, delayed, or b
 We ran a Mail flow > Message trace and confirmed the blocked email appeared in results with 'Failed' status.
 
 
-<img src="Assets/message trace result.png" style="border: 2px solid green; padding: 10px;border-radius:20px;">
+<img src="assets/message trace result.png" style="border: 2px solid green; padding: 10px;border-radius:20px;">
 
 ## 9. Connecting to Exchange Online with PowerShell
 
